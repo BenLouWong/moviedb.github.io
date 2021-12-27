@@ -1,0 +1,13 @@
+.para {
+	font-size: var(--fontMed);
+	@media screen and (max-width: 720px) {
+		font-size: var(--fontSmall);
+	}
+}
+
+.heading {
+	font-size: var(--fontVeryBig);
+	@media screen and (max-width: 720px) {
+		font-size: var(--fontBig);
+	}
+}

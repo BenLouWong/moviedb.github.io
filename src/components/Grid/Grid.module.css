@@ -1,0 +1,19 @@
+.card {
+	max-width: var(--maxWidth);
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.card h1 {
+	color: var(--medGrey);
+
+	@media screen and (max-width: 768px) {
+		font-size: var(--fontBig);
+	}
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+	grid-gap: 1.5rem;
+}
